@@ -1,0 +1,13 @@
+Package: singleCellRNASeqMouseUsoskinSensoryNeuron
+Maintainer: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
+Author: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
+Version: 0.99.0
+License: Artistic-2.0
+Title: Usoskin et al single-cell RNA-seq data of mouse sensory neuron cells
+Description: This package stores Usoskin et al., 2015 data in an ExpressionSet object. Citation: Dmitry Usoskin, Allexsandro Furlan, Saiful Islam, Hind Abdo, Peter Lonnerberg, Daohua Lou, Jens Hjerling-Leffler, Jesper Haeggstrom, Olga Kharchenko, Peter V Kharchenko, Stem Linnarsson, and Patrik Ernfors. Unbiased classification of sensory neuron types by large-scale single-cell RNA sequencing. Nature Neuroscience 18:145-153 (2015) DOI: 10.1038/nn.3881
+LazyData: yes
+Depends:
+    R (>= 2.10), Biobase (>= 2.26.0)
+biocViews: ExperimentData
+NeedsCompilation: no
+RoxygenNote: 6.0.1
